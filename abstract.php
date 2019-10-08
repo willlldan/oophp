@@ -111,7 +111,7 @@ class CetakInfoProduk {
         $this->daftarProduk[] = $produk;
     }
 
-    public function cetak()
+    public function cetakProduk()
     {
         $str = "DAFTAR PRODUK : <br>";
         foreach ($this->daftarProduk as $p ) {
@@ -129,4 +129,4 @@ $produk2 = new Game("Uncharted","Neil Druckman", "Sony Computer", 250000, 55);
 $cetakProduk = new CetakInfoProduk();
 $cetakProduk->tambahProduk($produk1);
 $cetakProduk->tambahProduk($produk2);
-echo $cetakProduk->cetak();
+echo $cetakProduk->cetakProduk();

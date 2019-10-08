@@ -134,7 +134,7 @@ class CetakInfoProduk {
 }
 
 $produk1 = new Komik("Naruto", "Masashi Kishimoto", "Shonen Jump", 30000, 100);
-$produk2 = new Game("Uncharted","Neil Druckman", "Sony Computer", 250000, 55);
+$produk2 = new Game("Uncharted", "Neil Druckman", "Sony Computer", 250000, 55);
 
 $cetakProduk = new CetakInfoProduk();
 $cetakProduk->tambahProduk($produk1);
